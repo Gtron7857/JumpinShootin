@@ -19,7 +19,6 @@ public class PlayerController : MonoBehaviour {
   // Fizicks
   void FixedUpdate() {
     float h = Input.GetAxis("Horizontal");
-    print(h);
 
     if(h * this.GetComponent<Rigidbody2D>().velocity.x < maxSpeed)
       this.GetComponent<Rigidbody2D>().AddForce(Vector2.right * h * moveForce);

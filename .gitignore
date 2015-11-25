@@ -1,4 +1,7 @@
+#MAC DS files
 .DS_Store
+
+#Unity
 Library
 Temp
 *csproj
@@ -19,3 +22,6 @@ Temp
 *.psd
 *.ai
 *.asset
+
+#vim swap files
+*.swp
