@@ -1,0 +1,6 @@
+The best way to create sprite gameobjects is to simply drag the sprite into your scene.
+
+This will create a new game object with a sprite renderer component set to that sprite.
+Sprite renderers using the default sprite material also have a tint property that tints
+the sprite.  This means that, using the 32x32 white square in this folder, you can
+create platforms of any size and color.
